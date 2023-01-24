@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo At the start of bash script we use shebang line starting with \#\!.
+echo This line is saying that use the binary named bash stored at bin folder to run rest of the file.
+echo If we wanted to use binary named python we would have used \#\!\\bin\\python.
+echo Note that bash inside bin folder is a binary as only binary can be run on computers. The folder bin stands for binary. 
+echo What bash does is that it looks up commands\(from command line or from reading from a file or some other option\) from bin folder and pass the command with arguments to OS to exceute them.
+echo When we write echo command with some argument. Bash first finds the echo command in bin folder.
+echo Then it passes the command to OS along with arguments.
+ 
