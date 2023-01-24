@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo Hi this is a script in bash. I am writing these as notes in bash. Everything in bash is seen as string, with exception. Therefore quotes are not required.
+echo "But if I use quotes it will still work and define whatver inside quotes as string."
+echo Let\'s define a variable in bash. First please see that I used \\ to escape \' in previous line.
+echo To define variable make sure there is no space before and after \= symbol.
+
+variable1=somestring
+echo variable1 \=$variable1
+
+echo We defined variable1 with string datatype with value \"somestring\". The variable stores value until it sees an empty space. 
+echo So if we want to add space in somestring we need to write it inside quotes.
+echo Let\'s define variable2 inside quotes.
+
+variable2="some string"
+echo variable2 \=$variable2
