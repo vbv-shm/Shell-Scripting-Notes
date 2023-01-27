@@ -1,0 +1,13 @@
+# ${parameter} 
+somevariable="hello"
+echo ${somevariable} # will print hello
+
+
+# $(command)   Whatever inside () is seen as a command.
+echo "You are currently in $(pwd)" directery.  pwd is command here.
+
+
+# $((airthmatic))  Calculate the airthmatics
+x=2
+$(($x+4)), $(( $x + 1 )),   $(( ($x+1)*2 )) 
+
