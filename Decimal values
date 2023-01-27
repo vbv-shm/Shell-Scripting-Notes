@@ -1,0 +1,3 @@
+# To get the value of airthmatic in decimal we pass the output of airthmatic into bc command.
+
+echo "scale=2; 5/2" | bc  # will give 2.50 as answer
