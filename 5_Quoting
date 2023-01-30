@@ -1,0 +1,11 @@
+Certain character in bash has special meaning, quoting removes the special power of these special characters.
+
+
+Three types of quoting can be done in bash:
+1. backslash(\) -Removes special meaning of next character
+2. Single quote -Removes special meaning if all the character inside single brackets.
+3. Double quote -Removes special meaning of all characters except with $ sign and backtick(`)
+
+eg.
+echo Jack \& Joans   Removes spacial power of & symbol
+filename="C:\Users\\$USER\DOCUMENTS"
